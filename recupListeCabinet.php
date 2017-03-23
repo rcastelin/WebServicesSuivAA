@@ -5,5 +5,6 @@ $sql = 'SELECT *'
 $sth = $dbh->prepare($sql);
 $sth->execute();
 var_dump($sth)
+
 ?>
 

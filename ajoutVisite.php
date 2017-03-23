@@ -11,4 +11,5 @@ $sql = 'INSERT INTO Visite(visit_rendezvous,visit_heure_arrivee,visit_heure_entr
 $sth = $dbh->prepare($sql);
 $sth->execute();
 var_dump($sth)
+
 ?>
